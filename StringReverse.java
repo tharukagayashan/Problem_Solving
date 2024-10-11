@@ -20,6 +20,8 @@ public class StringReverse {
 			newWord = newWord + arr[i]; 
 			
 		}
+
+		scanner.close();
 		
 		System.out.println(newWord);
 	}
