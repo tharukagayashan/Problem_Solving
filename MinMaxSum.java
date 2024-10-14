@@ -1,9 +1,9 @@
 import java.io.*;
 import java.util.*;
 
-class MiniMaxSum {
+public class MinMaxSum {
 
-    public static void miniMaxSum(List<Integer> arr) {
+    public static void minMaxSum(List<Integer> arr) {
         long max = 0;
         long min = 0;
         long sum = 0;
@@ -35,7 +35,7 @@ class MiniMaxSum {
             arr.add(arrItem);
         }
 
-        MiniMaxSum.miniMaxSum(arr);
+        MinMaxSum.minMaxSum(arr);
 
         bufferedReader.close();
     }
